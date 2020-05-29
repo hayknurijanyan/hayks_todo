@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>To Do List</title>
+
+ </head>
+  <body>
+  	<h1><span class="styling">To Do List</span></h1>
+    <div class="input-div">
+       <input class="input" id ="todo-name" type="text" placeholder="Add your task..."></input>
+       <button class="enter" id = "add-button"><i class="fa fa-plus" ></i> </button>
+    </div>
+    <ul class="container" id ="ul">
+    	<li class="item" style="display: none" id='items'>
+    		<div id ="newinput"class="item_input">This task is not done yet</div>
+    		<button id="done" class="done"><i class="fa fa-check"></i> </button>
+    		<button id="remove" class="remove"><i class="fa fa-trash"></i> </button>
+<!--     	</li> 
+      <li class="item" id="item-marked">
+        <div class="checked">I've already Done this task</div>
+        <button id="done" class="done"><i class="fa fa-check"></i> </button>
+        <button id="remove" class="remove"><i class="fa fa-trash"></i> </button>
+      </li>  -->
+    	
+    </ul>
+    <script src="main.js"></script>
+  </body>
+</html>
